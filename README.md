@@ -154,5 +154,5 @@ For every prediction, the application provides:
 
 ## Author
 
-Developed as a Final Year Machine Learning Project.
+Chandni Kumar
 
