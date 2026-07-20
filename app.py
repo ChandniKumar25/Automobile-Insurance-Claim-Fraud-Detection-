@@ -632,7 +632,7 @@ with tab_results:
 
         styled_table = display_table.style \
             .format({"Impact on Fraud Score": "{:+.4f}"}) \
-            .applymap(_color_impact, subset=["Impact on Fraud Score"])
+            .map(_color_impact, subset=["Impact on Fraud Score"])
 
         st.dataframe(styled_table, use_container_width=True)
 
